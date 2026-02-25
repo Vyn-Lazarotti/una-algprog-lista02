@@ -1,0 +1,21 @@
+programa {
+  real valor_saque, valor_disponivel, sub
+  funcao inicio() {
+    saldo_disponivel = 5000
+    escreva("Digite valor saque: ")
+    leia(valor_saque)
+    se
+    (
+      valor_saque <= saldo_disponivel
+    )
+    {
+      sub = saldo_disponivel - valor_saque
+      escreva("\nAqui está o dinheiro.")
+      escreva("\nSaldo disponível: ", sub, "\n")
+    }
+    senao
+    {
+      escreva("\nSaldo insuficiente")
+    }
+  }
+}
