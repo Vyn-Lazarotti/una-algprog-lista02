@@ -1,8 +1,7 @@
 una-algprog-lista02/
 ├── README.md
 ├── fluxogramas/
-│   ├── sensor_re.png
-│   └── filtro_insta.png
+│   ├── Exercicio1.png // fluxograma de como funciona um sensor de carro
+│   └── Exercicio2.png // fluxograma de filtro p&b
 └── algoritmos/
-    ├── exercicio_saque.txt
-    └── media_aluno.txt
+    ├── Exercicio3.txt // saque bancário
